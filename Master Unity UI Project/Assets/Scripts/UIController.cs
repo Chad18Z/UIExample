@@ -23,13 +23,13 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.KeypadPlus))
+        if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Plus))
         {
             if (healthBar.fillAmount < 1f)
             healthBar.fillAmount += .1f;
         }
 
-        else if (Input.GetKeyDown(KeyCode.KeypadMinus))
+        else if (Input.GetKeyDown(KeyCode.KeypadMinus) || Input.GetKeyDown(KeyCode.Minus))
         {
             if (healthBar.fillAmount > 0f)
                 healthBar.fillAmount -= .1f;
