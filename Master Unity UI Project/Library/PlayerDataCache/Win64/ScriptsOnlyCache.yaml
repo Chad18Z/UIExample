@@ -1,14 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DragAndDrop
+    - ShowHidePanels
     - UIController
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
   sceneClasses:
@@ -63,11 +69,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9320}
+    - Class: 114
       Script: {instanceID: 9322}
+    - Class: 114
+      Script: {instanceID: 9324}
     - Class: 114
       Script: {instanceID: 9328}
     - Class: 114
+      Script: {instanceID: 9330}
+    - Class: 114
       Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9336}
     - Class: 114
       Script: {instanceID: 9338}
     - Class: 114
@@ -76,6 +90,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9378}
     - Class: 114
       Script: {instanceID: 10220}
+    - Class: 114
+      Script: {instanceID: 14936}
+    - Class: 114
+      Script: {instanceID: 20136}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -87,6 +105,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -731,6 +751,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fbba92629fcfe013b9cc4d8c525004a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowHidePanels
+  - hash:
+      serializedVersion: 2
+      Hash: a200fc06fa6a1435e34b01a41d9fd932
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragAndDrop
   platform: 19
   scenePathNames:
   - Assets/Scenes/Chapter3.unity

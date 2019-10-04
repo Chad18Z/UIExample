@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class UIController : MonoBehaviour
 {
@@ -46,5 +47,10 @@ public class UIController : MonoBehaviour
                 images[i].color = color;
             }
         }
+    }
+
+    public void OnClick()
+    {
+        Destroy(EventSystem.current.currentSelectedGameObject);
     }
 }
