@@ -98,7 +98,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10224}
     - Class: 114
-      Script: {instanceID: 20352}
+      Script: {instanceID: 10412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -151,7 +151,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9380}
     - Class: 114
-      Script: {instanceID: 18336}
+      Script: {instanceID: 10572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -781,6 +781,12 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
+      Hash: 63227815ff36b0bce599dddcc2fe816e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MuteUnmute
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -817,25 +823,19 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: c3d3430df9e3ea95e3e3d587961390fb
-    assemblyName: Unity.Timeline.dll
-    namespaceName: UnityEngine.Timeline
-    className: PlayableTrack
-  - hash:
-      serializedVersion: 2
       Hash: 661a58e8ad48cd435aa02e6a0521d164
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelLoader
   - hash:
       serializedVersion: 2
-      Hash: 63227815ff36b0bce599dddcc2fe816e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MuteUnmute
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
   platform: 19
   scenePathNames:
   - Assets/Scenes/Chapter5StartScreen.unity
   - Assets/Scenes/Chapter5.unity
   - Assets/Scenes/Chapter2.unity.unity
-  playerPath: C:/Users/crede/Desktop/UIExample/Master Unity UI Project.exe
+  playerPath: C:/Users/Chad/Desktop/UIExample/Master Unity UI Project.exe
