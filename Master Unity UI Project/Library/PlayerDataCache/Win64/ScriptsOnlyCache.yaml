@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DragAndDrop
+    - LevelLoader
+    - MuteUnmute
     - ShowHidePanels
     - UIController
     UnityEditor.TestRunner.dll:
@@ -17,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Chapter2.unity.unity:
     - Class: 1
@@ -42,7 +45,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 10220}
+      Script: {instanceID: 10224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -55,7 +58,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Chapter3.unity:
+    Assets/Scenes/Chapter5.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -89,11 +92,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 10220}
+      Script: {instanceID: 9394}
     - Class: 114
-      Script: {instanceID: 14936}
+      Script: {instanceID: 10066}
     - Class: 114
-      Script: {instanceID: 20136}
+      Script: {instanceID: 10224}
+    - Class: 114
+      Script: {instanceID: 20352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -107,6 +112,59 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/Chapter5StartScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9320}
+    - Class: 114
+      Script: {instanceID: 9322}
+    - Class: 114
+      Script: {instanceID: 9328}
+    - Class: 114
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9342}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9380}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -337,6 +395,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: fbba92629fcfe013b9cc4d8c525004a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowHidePanels
   - hash:
       serializedVersion: 2
       Hash: 9e70ecf91466f07d9bd649be625cae52
@@ -633,6 +697,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: a200fc06fa6a1435e34b01a41d9fd932
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragAndDrop
+  - hash:
+      serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -753,18 +823,19 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: fbba92629fcfe013b9cc4d8c525004a8
+      Hash: 661a58e8ad48cd435aa02e6a0521d164
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ShowHidePanels
+    className: LevelLoader
   - hash:
       serializedVersion: 2
-      Hash: a200fc06fa6a1435e34b01a41d9fd932
+      Hash: 63227815ff36b0bce599dddcc2fe816e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DragAndDrop
+    className: MuteUnmute
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Chapter3.unity
+  - Assets/Scenes/Chapter5StartScreen.unity
+  - Assets/Scenes/Chapter5.unity
   - Assets/Scenes/Chapter2.unity.unity
   playerPath: C:/Users/crede/Desktop/UIExample/Master Unity UI Project.exe
