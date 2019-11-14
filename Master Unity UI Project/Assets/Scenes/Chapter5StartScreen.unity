@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66074d7fbb9b5414f8a117b3de938c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Chapter5
+  sceneToLoad: Chapter6AnimatedText
 --- !u!95 &1702001638
 Animator:
   serializedVersion: 3

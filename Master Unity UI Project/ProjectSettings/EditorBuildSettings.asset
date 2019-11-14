@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter5StartScreen.unity
     guid: 55ed453c98ba82e4a83db1a9e5c69459
   - enabled: 1
-    path: Assets/Scenes/Chapter5.unity
-    guid: 8f8f7a79c40d0ab43850a0f3736492dd
-  - enabled: 1
     path: Assets/Scenes/Chapter2.unity.unity
     guid: 90e2b771a1ac4ae4cb90c3c44bb177ce
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Chapter6AnimatedText.unity
+    guid: 7b49f0fa4ebac8444b9c9435c7096cf4
+  - enabled: 1
+    path: Assets/Scenes/Chapter6.unity
+    guid: 9ed5a23d85b113b448a9aacd79933a80
   m_configObjects: {}
