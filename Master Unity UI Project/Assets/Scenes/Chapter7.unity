@@ -601,6 +601,7 @@ GameObject:
   - component: {fileID: 166923073}
   - component: {fileID: 166923072}
   - component: {fileID: 166923074}
+  - component: {fileID: 166923075}
   m_Layer: 5
   m_Name: InventoryPanel
   m_TagString: Untagged
@@ -675,10 +676,29 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166923070}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
+--- !u!95 &166923075
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166923070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca9df6fdffb6c3e4b8f0394c304b6667, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &186616601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3677,6 +3697,7 @@ GameObject:
   - component: {fileID: 721273100}
   - component: {fileID: 721273102}
   - component: {fileID: 721273103}
+  - component: {fileID: 721273104}
   m_Layer: 5
   m_Name: PausePanel
   m_TagString: Untagged
@@ -3753,9 +3774,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721273098}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &721273103
 MonoBehaviour:
@@ -3778,6 +3799,25 @@ MonoBehaviour:
   SoundOn: {fileID: 6729558239719283999, guid: 8cdba73f804b87045aafc8dbe4b4d29e, type: 3}
   SoundOff: {fileID: -3359208513841039182, guid: 8cdba73f804b87045aafc8dbe4b4d29e,
     type: 3}
+--- !u!95 &721273104
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721273098}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca9df6fdffb6c3e4b8f0394c304b6667, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &798691456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5436,9 +5476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0137f11e692f245b523364282bccfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 166923074}
+  inventoryPanelAnim: {fileID: 166923075}
   inventoryUp: 0
-  pausePanel: {fileID: 721273102}
+  pausePanelAnim: {fileID: 721273104}
   pauseUp: 0
 --- !u!114 &1081465727
 MonoBehaviour:
