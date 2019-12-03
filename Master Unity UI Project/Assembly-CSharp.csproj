@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MuteUnmute.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacterSwap.cs" />
     <Compile Include="Assets\Scripts\ProgressMeters.cs" />
     <Compile Include="Assets\Scripts\ShowHidePanels.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
