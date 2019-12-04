@@ -5436,9 +5436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0137f11e692f245b523364282bccfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 166923074}
+  inventoryPanelAnim: {fileID: 0}
   inventoryUp: 0
-  pausePanel: {fileID: 721273102}
+  pausePanelAnim: {fileID: 0}
   pauseUp: 0
 --- !u!114 &1081465727
 MonoBehaviour:
@@ -6792,8 +6792,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: -5890937383487872028, guid: 367a2f261d8d31e418fe8674b347bb64,
-    type: 3}
+  m_Sprite: {fileID: 21300200, guid: ce2ec1a0290432c4d912c70878808d6b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

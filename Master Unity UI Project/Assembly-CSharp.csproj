@@ -63,9 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AnimateText.cs" />
+    <Compile Include="Assets\Scripts\AnimationControls.cs" />
+    <Compile Include="Assets\Scripts\ChestAnimControls.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MuteUnmute.cs" />
+    <Compile Include="Assets\Scripts\OpenCloseButton.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacterSwap.cs" />
     <Compile Include="Assets\Scripts\ProgressMeters.cs" />
     <Compile Include="Assets\Scripts\ShowHidePanels.cs" />
