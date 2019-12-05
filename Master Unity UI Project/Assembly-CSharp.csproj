@@ -66,8 +66,11 @@
     <Compile Include="Assets\Scripts\AnimationControls.cs" />
     <Compile Include="Assets\Scripts\BillboardPlane.cs" />
     <Compile Include="Assets\Scripts\ChestAnimControls.cs" />
+    <Compile Include="Assets\Scripts\DPad.cs" />
     <Compile Include="Assets\Scripts\DragAndDrop.cs" />
+    <Compile Include="Assets\Scripts\FloatingAnalogStick.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
+    <Compile Include="Assets\Scripts\LongHoldButton.cs" />
     <Compile Include="Assets\Scripts\MageInteractions.cs" />
     <Compile Include="Assets\Scripts\MuteUnmute.cs" />
     <Compile Include="Assets\Scripts\OpenCloseButton.cs" />
